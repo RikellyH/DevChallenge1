@@ -13,6 +13,9 @@
 
 main {
   color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
@@ -49,11 +52,11 @@ section {
 
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
 }
 
 .body {
-  padding-left: 10rem;
+  padding-top: 10px;
+  margin-right: -72px;
   transform: scale(1.1);
 }
 
@@ -84,8 +87,8 @@ button {
 }
 
 .img-pessoas img {
-  width: 640px;
+  width: 700px;
   height: auto;
   float: left;
-  transform: translateX(-50px);
+  transform: translateX(-18px);
 }
